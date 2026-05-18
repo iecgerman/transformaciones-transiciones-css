@@ -2,6 +2,10 @@
 
 Transforma y anima elementos con CSS. Aprende a usar transformaciones 2D y 3D, transiciones y efectos como Parallax. Entiende conceptos de UX y optimiza animaciones para rendimiento y accesibilidad, creando interfaces más dinámicas.
 
+## TIPS
+
+https://htmlcolorcodes.com/
+
 ## 📚 Contenido del Curso y Aprendizajes
 
 A lo largo de este curso, se exploraron y dominaron los siguientes conceptos clave a través de 20 lecciones prácticas divididas en módulos estratégicos:

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+      <head>
+            <meta charset="UTF-8" />
+            <meta
+                  name="viewport"
+                  content="width=device-width, initial-scale=1.0"
+            />
+            <title>Transform Rotate</title>
+            <style>
+                  div {
+                        background: #0099f7; /* fallback for old browsers */
+                        background: -webkit-linear-gradient(
+                              to bottom,
+                              #f11712,
+                              #0099f7
+                        ); /* Chrome 10-25, Safari 5.1-6 */
+                        background: linear-gradient(
+                              to bottom,
+                              #f11712,
+                              #0099f7
+                        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 50%;
+                        transition: transform 3.5s;
+                  }
+                  div:hover {
+                        transform: rotate(720deg);
+                  }
+            </style>
+      </head>
+      <body>
+            <div></div>
+      </body>
+</html>

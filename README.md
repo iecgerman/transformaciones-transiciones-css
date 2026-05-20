@@ -5,6 +5,11 @@ Transforma y anima elementos con CSS. Aprende a usar transformaciones 2D y 3D, t
 ## TIPS
 
 https://htmlcolorcodes.com/
+https://cubic-bezier.com/
+https://easings.net/
+https://developer.mozilla.org/es/docs/Web/CSS/Guides/Positioned_layout/Stacking_context
+https://cssgradient.io/gradient-backgrounds/
+https://caniuse.com/?search=transform
 
 ## 📚 Contenido del Curso y Aprendizajes
 

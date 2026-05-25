@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+      <head>
+            <meta charset="UTF-8" />
+            <meta
+                  name="viewport"
+                  content="width=device-width, initial-scale=1.0"
+            />
+            <title>Backface Visibility</title>
+            <style>
+                  .card {
+                        width: 200px;
+                        height: 200px;
+                        transform-style: preserve-3d;
+                        position: relative;
+                        transition: all 2000ms ease;
+                  }
+                  .card:hover {
+                        transform: rotateY(180deg);
+                        transition: all 2000ms ease;
+                  }
+                  .face {
+                        border-radius: 20px;
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
+                        backface-visibility: hidden;
+                  }
+                  .face.front {
+                        background: greenyellow;
+                  }
+                  .face.back {
+                        background: red;
+                        transform: rotateX(180deg);
+                  }
+            </style>
+      </head>
+      <body>
+            <div class="card">
+                  <div class="face front"></div>
+                  <div class="face back"></div>
+            </div>
+      </body>
+</html>

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+      <head>
+            <meta charset="UTF-8" />
+            <meta
+                  name="viewport"
+                  content="width=device-width, initial-scale=1.0"
+            />
+            <title>Transition Property Duration</title>
+            <!-- https://static.platzi.com/media/public/uploads/transiciones_2a4663d3-d90c-4b27-a69d-228c9a767b40.pdf -->
+            <style>
+                  .container {
+                        width: 400px;
+                        height: 100px;
+                        background: green;
+                        display: flex;
+                        justify-content: space-between;
+                        margin: 30px;
+                  }
+                  .container:hover .box {
+                        transform: scale(1.2);
+                  }
+                  .box {
+                        width: 100px;
+                        height: 100px;
+                        background: yellow;
+                  }
+                  .box1 {
+                        background: skyblue;
+                        transition: transform 500ms;
+                  }
+                  .box2 {
+                        background: purple;
+                        transition: transform 1s;
+                  }
+                  .box3 {
+                        background: fuchsia;
+                        transition: transform 500ms;
+                  }
+            </style>
+      </head>
+      <body>
+            <div class="container">
+                  <div class="box box1"></div>
+                  <div class="box box2"></div>
+                  <div class="box box3"></div>
+            </div>
+      </body>
+</html>

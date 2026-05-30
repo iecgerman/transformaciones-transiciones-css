@@ -7,8 +7,10 @@
                   content="width=device-width, initial-scale=1.0"
             />
             <title>Timing Function and Delay</title>
+            <!-- https://htmlcolorcodes.com/colors/ -->
+            <!-- https://cubic-bezier.com/ -->
             <style>
-                  .container:hover {
+                  .container:hover .circle {
                         transform: translateX(200px);
                   }
                   .circle {
@@ -17,34 +19,34 @@
                         border-radius: 50%;
                   }
                   .one {
-                        background:;
+                        background: #353935;
                         transition: transform 1s linear;
                         transition-delay: 0.5s;
                   }
                   .two {
-                        background:;
-                        transition: transform 1s linear;
-                        transition-delay: 0.5s;
+                        background: #1f51ff;
+                        transition: transform 1s ease;
+                        transition-delay: 1s;
                   }
                   .three {
-                        background:;
-                        transition: transform 1s linear;
-                        transition-delay: 0.5s;
+                        background: #00ffff;
+                        transition: transform 1.5s ease-in;
+                        transition-delay: 1.5s;
                   }
                   .four {
-                        background:;
-                        transition: transform 1s linear;
-                        transition-delay: 0.5s;
+                        background: #00ff7f;
+                        transition: transform 2s ease-out;
+                        transition-delay: 2s;
                   }
                   .five {
-                        background:;
-                        transition: transform 1s linear;
+                        background: #7f00ff;
+                        transition: transform 1s step-end;
                         transition-delay: 0.5s;
                   }
                   .six {
                         background: #f4bb44;
-                        transition: transform 1s linear;
-                        transition-delay: 0.5s;
+                        transition: transform 3s cubic-bezier(0, 1.51, 1, -0.85);
+                        transition-delay: 2.5s;
                   }
             </style>
       </head>

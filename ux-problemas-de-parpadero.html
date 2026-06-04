@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+      <head>
+            <meta charset="UTF-8" />
+            <meta
+                  name="viewport"
+                  content="width=device-width, initial-scale=1.0"
+            />
+            <title>Document</title>
+            <style>
+                  div {
+                        border-radius: 50%;
+                        width: 100px;
+                        height: 100px;
+                  }
+                  .container:hover .item {
+                        background: hotpink;
+                        transform: translateY(25px);
+                  }
+                  .item {
+                        background: lime;
+                  }
+            </style>
+      </head>
+      <body>
+            <p>
+                  El "parpadeo" se da porque cuando queremos hacer :hover en el
+                  item si este se mueve hay momentos donde no estamos haciendo
+                  :hover (ya que se va de donde esta nuestro puntero). Al
+                  contener al item y hacer :hover en su container, por mas que
+                  el item se mueva, nunca dejamos de hacer :hover en el
+                  container ya que este no se mueve.
+            </p>
+            <div class="container">
+                  <div class="item"></div>
+            </div>
+      </body>
+</html>

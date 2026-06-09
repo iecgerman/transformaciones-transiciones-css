@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+      <head>
+            <meta charset="UTF-8" />
+            <meta
+                  name="viewport"
+                  content="width=device-width, initial-scale=1.0"
+            />
+            <title>Will Chagnge</title>
+            <style>
+                  button {
+                        background: palegoldenrod;
+                        width: 100px;
+                        height: 30px;
+                  }
+                  .better {
+                        will-change: transform;
+                        transition: transform 500ms;
+                  }
+                  .better:hover {
+                        transform: translateY(15px);
+                  }
+                  .worst {
+                        will-change: margin-top;
+                        transition: margin-top 500ms;
+                  }
+                  .worst:hover {
+                        margin-top: 15px;
+                  }
+            </style>
+      </head>
+      <body>
+            <!-- Para que lo tengan en cuenta que: transition: transform 500ms
+            ease; es lo mismo que decir: transition-property: trnasform;
+            transition-duration: 500ms; transition-timing-function: ease; -->
+            <div class="container">
+                  <button class="better"></button>
+                  <button class="worst"></button>
+            </div>
+      </body>
+</html>
